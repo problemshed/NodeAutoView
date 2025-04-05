@@ -19,7 +19,7 @@ func _on_selection_changed() -> void:
 		if (not _all_2d) and (not _all_3d):
 			if _node.get_script() != null:
 				EditorInterface.edit_script(_node.get_script())
-			EditorInterface.set_main_screen_editor("Script")
+				EditorInterface.set_main_screen_editor("Script")
 			break
 	if _all_2d: EditorInterface.set_main_screen_editor("2D")
 	elif _all_3d: EditorInterface.set_main_screen_editor("3D")
