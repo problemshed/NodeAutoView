@@ -16,5 +16,10 @@ func _on_selection_changed() -> void:
 			_all_2d = false
 		if not _node is Node3D:
 			_all_3d = false
+		if (not _all_2d) and (not _all_3d):
+			if _node.get_script() != null:
+				EditorInterface.edit_script(_node.get_script())
+			EditorInterface.set_main_screen_editor("Script")
+			break
 	if _all_2d: EditorInterface.set_main_screen_editor("2D")
 	elif _all_3d: EditorInterface.set_main_screen_editor("3D")
