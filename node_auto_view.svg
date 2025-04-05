@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>New Project</title>
+	<defs>
+		<image width="80" height="80" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZjN2Y3ZiIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+Cg=="/>
+		<image width="64" height="64" id="img2" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzhkYTVmMyIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+Cg=="/>
+		<image width="64" height="64" id="img3" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzhlZWY5NyIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+Cg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Node3D" href="#img1" transform="matrix(.8,0,0,.8,-8,-8)"/>
+	<use id="Node2D" href="#img2" transform="matrix(1,0,0,1,0,0)"/>
+	<use id="Control" href="#img3" transform="matrix(1,0,0,1,8,8)"/>
+</svg>
