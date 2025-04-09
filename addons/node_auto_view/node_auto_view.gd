@@ -9,6 +9,8 @@ func _exit_tree() -> void:
 
 func _on_selection_changed() -> void:
 	var _nodes := EditorInterface.get_selection().get_selected_nodes()
+	if _nodes.is_empty():
+		return
 	var _all_2d := true
 	var _all_3d := true
 	for _node in _nodes:
